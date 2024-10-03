@@ -1,19 +1,19 @@
 .App {
-    text-align: center;
-  }
-  
-  .movie-item {
-    display: inline-block;
-    margin: 10px;
-    text-align: left;
-  }
-  
-  .movie-item img {
-    max-width: 100px;
-  }
-  
-  .movie-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
+  text-align: center;
+}
+
+.movie-item {
+  display: inline-block;
+  margin: 10px;
+  text-align: left;
+}
+
+.movie-item img {
+  max-width: 100px;
+}
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
