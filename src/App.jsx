@@ -17,7 +17,7 @@ const App = () => {
   const handleSearch = async (searchTerm) => {
     setLoading(true);
     try {
-      const response = await axios.get(`http://www.omdbapi.com/?apikey=${API_KEY}&s=${searchTerm}`);
+      const response = await axios.get(`https://www.omdbapi.com/?apikey=${API_KEY}&s=${searchTerm}`);
       setMovies(response.data.Search || []);
       setLoading(false);
     } catch (error) {
