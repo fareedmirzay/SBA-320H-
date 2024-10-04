@@ -23,3 +23,5 @@ HTM
 - Responsive design for a better user experience on various devices.
 
 
+you can access my app on netlifty
+netlify url = https://ahmadsmovieapp.netlify.app/
