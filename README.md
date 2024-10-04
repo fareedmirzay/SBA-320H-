@@ -23,5 +23,6 @@ HTM
 - Responsive design for a better user experience on various devices.
 
 
-you can access my app on netlifty
+you can access my app on netlifty but youe not allowed to make fun of me or laugh at my site 
 netlify url = https://ahmadsmovieapp.netlify.app/
+()
