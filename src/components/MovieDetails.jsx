@@ -2,10 +2,9 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
 
-const API_KEY = "d0cc3229";
 
+const API_KEY = import.meta.env.VITE_API_KEY;
 const MovieDetails = () => {
-  const API_KEY = "d0cc3229";
   const { imdbID } = useParams();
   const [movieDetails, setMovieDetails] = useState({});
   const [loading, setLoading] = useState(true);

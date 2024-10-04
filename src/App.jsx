@@ -6,12 +6,11 @@ import MovieDetails from './components/MovieDetails.jsx';
 import axios from 'axios';
 
 
-// const API_KEY = import.meta.env.VITE_API_KEY;
-// console.log("API Key:", import.meta.env.VITE_API_KEY);
+const API_KEY = import.meta.env.VITE_API_KEY;
+
 
 const App = () => {
-  const API_KEY = "d0cc3229";
-  const [movies, setMovies] = useState([]);
+   const [movies, setMovies] = useState([]);
   const [loading, setLoading] = useState(false);
 
   const handleSearch = async (searchTerm) => {
